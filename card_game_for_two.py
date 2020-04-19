@@ -2,13 +2,5 @@
 
 input()
 
-AT = 0
-Nob = 0
-count = 0
-for i in reversed(sorted(list(map(int, input().split())))):
-    if(count % 2 == 0):
-        AT += i
-    else:
-        Nob += i
-    count += 1
-print(AT-Nob)
+a = sorted(map(int, input().split()), reverse=True)
+print(sum(a[::2]) - sum(a[1::2]))
