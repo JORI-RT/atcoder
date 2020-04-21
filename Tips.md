@@ -3,13 +3,18 @@
 ```py
 a, b = map(int, input.split())
 a, b, c, x = [int(input()) for i in range(4)]
-A = list(map(int, input().split()))
-## 縦にくるタイプ
-n = input()
-ary = []
-[ary.append(int(input())) for i in range(int(n))]
 ```
-
+### 縦タイプ
+```sh
+# 縦タイプ
+3
+1 1
+2 4
+4 3
+# 
+N = int(input())
+d = [list(map(int, input().split())) for _ in range(N)]
+```
 
 ## slice
 ```py
