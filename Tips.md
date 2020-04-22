@@ -1,17 +1,24 @@
+- [standard input](#anchor1")
+    - [通常の入力](#通常の入力)
+    - [縦タイプ](#縦タイプ)
+    - [slice](#slice)
 ## standard input 
 
+<a id="anchor1"></a>
+
+### 通常の入力
 ```py
 a, b = map(int, input.split())
 a, b, c, x = [int(input()) for i in range(4)]
 ```
 ### 縦タイプ
 ```sh
-# 縦タイプ
+# input
 3
 1 1
 2 4
 4 3
-# 
+#  
 N = int(input())
 d = [list(map(int, input().split())) for _ in range(N)]
 ```
