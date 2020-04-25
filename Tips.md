@@ -8,7 +8,7 @@
 
 ### 通常の入力
 ```py
-a, b = map(int, input.split())
+a, b = map(int, input().split())
 a, b, c, x = [int(input()) for i in range(4)]
 ```
 ### 縦タイプ
