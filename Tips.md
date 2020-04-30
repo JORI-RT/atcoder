@@ -22,6 +22,19 @@ a, b, c, x = [int(input()) for i in range(4)]
 #  
 N = int(input())
 d = [list(map(int, input().split())) for _ in range(N)]
+
+# 数が不定のとき
+## input
+1
+2
+3
+...
+~~~~
+import sys
+
+a = []
+for s in sys.stdin:
+    a.append(int(s))
 ```
 
 ## slice
