@@ -2,7 +2,7 @@
 ## リンク
 * [便利リンク](https://atcoder.jp/posts/261)
 ## 実装集
-* [高階関数](practice/curry.py)
+* [高階関数](tips/curry.py)
 * [再帰](practice/recursive.py)
 
 ## アルゴリズム
