@@ -1,11 +1,9 @@
-# [TIPS](Tips.md)
-## リンク
-* [便利リンク](https://atcoder.jp/posts/261)
+## [TIPS](Tips.md)
 ## 実装集
-* [高階関数](tips/curry.py)
-* [再帰](practice/recursive.py)
+* [高階関数](implements/curry.py)
+* [深さ優先探索](implements/dfs.py)
+* [バイナリサーチ](implements/binrary_search.py)
+* [順列全探索](implements/permuration.py)
+* [nCr   組み合わせ](implements/cobination.py)
 
-## アルゴリズム
-* [bit全探索](https://qiita.com/gogotealove/items/11f9e83218926211083a)
-###  [SORT](sort.md)
-* [source](aoj/sort/link.md)
+
