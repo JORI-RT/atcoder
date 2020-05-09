@@ -6,17 +6,22 @@ T = list(map(int, input().split()))
 
 def bin_search(Array, x):
     left = 0
-    right = len(Array)
+    right = len(Array)-1
     mid = (left + right) // 2
-    while left > right:
+    while left <= right:
         if Array[mid] == x:
             return True
-        if Array[mid] >= x:
-            right = right // 2
+        if Array[mid] > x:
+            right = mid - 1
         elif Array[mid] < x:
             left = mid + 1
         mid = (left + right) // 2
     return False
 
 
-print(bin_search(A, 3))
+count = 0
+for i in T:
+    if bin_search(A, i):
+        count += 1
+
+print(count)
